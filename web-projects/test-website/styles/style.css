@@ -1,0 +1,48 @@
+/* p {
+    color:blue;
+    width: 500px;
+    border: 4px solid black;
+}
+h1, h2, li{
+    color: blue;
+} */
+
+html {
+    font-size: 15px; /* px means "pixels": the base font size is now 10 pixels high  */
+    font-family: "Roboto Condensed", sans-serif; /* this should be the rest of the output you got from Google fonts */
+  }
+
+  h1{
+      font-size: 60px;
+      text-align: center;
+      margin: 0;
+      padding: 20px 0;
+      color: #00539F;
+      text-shadow: 3px 3px 1px black;
+
+  }
+  h2 {
+      text-align: center;
+  }
+  p,li{
+      font-size: 16px;
+      line-height: 2;
+      letter-spacing: 1px;
+  }
+  .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+  } /*Usado para centrar imagenes */
+  /*
+  html {
+    background-color: #00539F;
+  } /*Para cambiar el color */
+  body {
+    width: 600px;
+    margin: 0 auto;
+    /*background-color: #FF9500;*/
+    padding: 0 20px 20px 20px;
+    border: 5px solid black;
+  }
+  
